@@ -1,0 +1,163 @@
+.workout-popup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(20px);
+}
+.workout-wrapper {
+  width: 700px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  justify-items: start;
+  overflow: hidden;
+}
+.workout-wrapper .closebtn{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.workout-wrapper .title{
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+}
+.workout-wrapper .workout-form-box{
+  width: 100%;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.Add-Workout,.Add-Exercises{
+  padding:0 30px 0 30px;
+}
+.workout-form-box .input-box {
+  width: 100%;
+  border-bottom: 2px solid white;
+  margin: 20px 0;
+}
+.workout-form-box .input-box input {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  color: white;
+  font-weight: 600;
+}
+.workout-form-box .input-box label {
+  margin-bottom: 10px;
+  font-size: 1em;
+  color: white;
+  font-weight: 500;
+  pointer-events: none;
+  transition: 0.5s;
+}
+/* .workout-form-box .input-box input:focus ~ label,
+.workout-form-box .input-box input:valid ~ label {
+  top: -5px;
+} */
+.file-input{
+  color: white;
+}
+input[type="file"]::file-selector-button {
+  margin-bottom: 10px;
+  background-color: white;
+  height: 20px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 700;
+  color: #162938;
+  transition: 0.9s ease-in;
+}
+
+input[type="file"]::file-selector-button:hover {
+  background: #162938;
+  color: white;
+}
+
+.workout-wrapper .btn {
+  width: 100%;
+  background-color: #162938;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1em;
+  color: #fff;
+  font-weight: 500;
+  transition: 0.7s ease-in;
+}
+
+.workout-wrapper .btn:hover {
+  background: #fff;
+  color: #162938;
+}
+
+.exercises {
+  display: flex;
+  gap: 5px;
+  margin: 10px;
+
+}
+.exercise {
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 5px;
+}
+.exercises h2{
+  font-size: 1rem;
+  color: white;
+}
+.exercise p{
+  font-size: 0.9rem;
+  color: white;
+
+}
+.exercise .btn {
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  background-color: #162938;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1em;
+  color: #fff;
+  transition: 0.8s ease-in;
+}
+.exercise .btn:hover {
+  background: #fff;
+  color: #162938;
+}
+
+.close {
+  font-size: 1.5rem;
+  padding: 4px;
+  text-decoration: none;
+  color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.8s ease;
+}
+.close:hover {
+  color: white;
+}
