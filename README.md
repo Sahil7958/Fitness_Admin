@@ -1,3 +1,15 @@
+## Admin Sign Up
+![Screenshot 2024-05-07 180231](https://github.com/Sahil7958/Fitness_Admin/assets/113251909/c5c7d98f-3bcc-439a-82ef-78e3ff954b98)
+
+## Admin Login
+![Screenshot 2024-05-07 180321](https://github.com/Sahil7958/Fitness_Admin/assets/113251909/c76e0f8c-7d33-47e5-900e-5a75a19c7b62)
+
+## User Dashboard
+![Screenshot 2024-05-07 180820](https://github.com/Sahil7958/Fitness_Admin/assets/113251909/b06355eb-b387-42cd-b0c4-d7a106d35754)
+
+## Add Workout Page
+![Screenshot 2024-05-07 183056](https://github.com/Sahil7958/Fitness_Admin/assets/113251909/c921e8e8-4cab-4a91-b250-91246c44c13a)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
